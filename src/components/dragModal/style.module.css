@@ -1,0 +1,50 @@
+.wrapper{
+    position: fixed;
+    inset: 0px;
+    z-index: 50;
+    background-color: rgb(10 10 10 / 0.7);
+}
+
+
+.drawer{
+    position: absolute;
+    bottom: 0px;
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-color: var(--white);
+}
+
+
+.button__box{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    padding: 1rem;
+}
+.button{
+    height: 0.5rem;
+    width: 3.5rem;
+    cursor: grab;
+    touch-action: none;
+    border-radius: 9999px;
+    background-color: #ffc300;
+    cursor: grabbing;
+    border: none;
+}
+
+.content__wrapper{
+    position: relative;
+    height: 100%;
+    z-index: 0;
+    overflow-y: scroll;
+    padding: 1rem;
+    padding-top: 3rem;
+}
