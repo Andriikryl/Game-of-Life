@@ -9,6 +9,7 @@ interface ButtonProps {
   onClick?: () => void;
   type?: HTMLButtonElement["type"];
   value?: string;
+  id?: string;
 }
 
 export function Button({
